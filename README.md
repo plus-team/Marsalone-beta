@@ -1,23 +1,11 @@
-# JavaScript GameBoy Color Emulator
+# Marsalone
 
-Fork of Grant Galitz's JavaScript GameBoy Color Emulator made for running a single ROM
-when uploading homebrew games to services like Itch.io.
+Marsalone est un jeu fait par -Plus. la beta vient de sortir.
 
-This version makes the following changes.
 
-- Canvas fills browser window on desktop/tablet while keeping aspect ratio
-- Touch controls displayed on mobile/tablet 
-- Using css `image-rendering: pixelated` rather than bilinear filtering
-- Touch dpad controls for mobile using touch move with a deadzone
-- Keyboard fix for iPad keyboard case that doesn't report keyup event keycode
-- Wait for keyboard or touch input before starting AudioContext to fix issues in Chrome and iOS not playing Audio
-- No ability to switch ROM, or save/load states, this version is intended for deploying a single game
+## Comment jouer ?
 
-## Usage
-
-- Clone this repository
-- Add your ROM file as `rom/game.gb` (or edit romPath in js/other/mobile.js to point to your ROM file)
-- Upload to a webserver and visit index.html
+rendez vous [ici](index.html "emulator")
 
 ## Keyboard Controls
 
